@@ -1,6 +1,8 @@
+
+
 public class Numeros0a99{
     public static void main(String[] args) {
-        int num 99;
+        int num =99;
         for(int i = 0; i<= num; i++){
             System.out.print(i+", ");
             if(i == 98){
