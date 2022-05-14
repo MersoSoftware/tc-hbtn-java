@@ -3,9 +3,9 @@ package maiusculo;
 public class Caractere {
 
 
-    public static boolean EhMaiusculo(char valor){
+    public static boolean EhMaiusculo(char c){
 
-        if(Character.isUpperCase(valor)){
+        if(Character.isUpperCase(c)){
             return true;
         }else{
             return false;
