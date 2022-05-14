@@ -5,7 +5,7 @@ public class Caractere {
 
     public static boolean EhMaiusculo(char valor){
 
-        if(!Character.isLowerCase(valor)){
+        if(Character.isUpperCase(valor)){
             return true;
         }else{
             return false;
