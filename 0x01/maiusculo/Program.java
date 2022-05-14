@@ -3,11 +3,13 @@ package maiusculo;
 public class Program {
     public static void main(String[] args) {
 
-        boolean caractereEhMaiusculo1 = Caractere.EhMaiusculo('a');
-        boolean caractereEhMaiusculo2 = Caractere.EhMaiusculo('B');
-        boolean caractereEhMaiusculo3 = Caractere.EhMaiusculo('d');
-        boolean caractereEhMaiusculo4 = Caractere.EhMaiusculo('f');
-        boolean caractereEhMaiusculo5 = Caractere.EhMaiusculo('G');
+        Caractere caractere = new Caractere();
+
+        boolean caractereEhMaiusculo1 = caractere.EhMaiusculo('a');
+        boolean caractereEhMaiusculo2 = caractere.EhMaiusculo('B');
+        boolean caractereEhMaiusculo3 = caractere.EhMaiusculo('d');
+        boolean caractereEhMaiusculo4 = caractere.EhMaiusculo('f');
+        boolean caractereEhMaiusculo5 = caractere.EhMaiusculo('G');
 
         System.out.printf("%b\n", caractereEhMaiusculo1);
         System.out.printf("%b\n", caractereEhMaiusculo2);
