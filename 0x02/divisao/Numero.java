@@ -1,6 +1,6 @@
 
 public class Numero {
-    static double resultado;
+    static int resultado;
     public static void dividir(int a, int b){
         try {
            resultado =  a / b;
