@@ -1,7 +1,8 @@
 
 public class Numero {
-    static int resultado = 0;
+
     public static void dividir(int a, int b){
+        int resultado = 0;
         try {
            resultado =  a / b;
         }catch (ArithmeticException e){
