@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/0x02/quadrado/Program.java" />
+      <file url="file://$PROJECT_DIR$/0x02/divisao/Program.java" />
+      <file url="file://$PROJECT_DIR$/0x01/maiusculo/Program.java" />
+      <file url="file://$PROJECT_DIR$/0x02/divisao/Numero.java" />
+    </excludeFromCompile>
+  </component>
+</project>
