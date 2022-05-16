@@ -1,5 +1,3 @@
-
-
 public class Empregado {
 
     double salarioFixo;
