@@ -1,5 +1,7 @@
 package contas_especiais;
 
+import contas_especiais.exceptions.OperacaoInvalidaException;
+
 public class ContaBancariaBasica {
     private String numeracao;
     private double saldo = 0;
@@ -26,7 +28,7 @@ public class ContaBancariaBasica {
         else
             throw new OperacaoInvalidaException("Valor para deposito de ser maior que 0");
     }
-    public void sacar (double valor) throws OperacaoInvalidaException{
+    public void sacar (double valor) throws OperacaoInvalidaException, OperacaoInvalidaException {
         if (valor <=0)
             throw new OperacaoInvalidaException("Valor de saque deve ser menor que 0");
         if (this.saldo < valor)
