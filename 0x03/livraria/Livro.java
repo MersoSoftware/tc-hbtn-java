@@ -1,6 +1,3 @@
-import livraria.exceptions.AutorInvalidoException;
-import livraria.exceptions.LivroInvalidoException;
-
 public class Livro {
     protected String titulo;
     protected String autor;
