@@ -1,6 +1,6 @@
 package contas_especiais;
 
-public class ContaBancariaControlada {
+public class ContaBancariaControlada extends ContaBancariaBasica{
     private double saldoMinimo;
     private double valorPenalidade;
     public ContaBancariaControlada(String numeracao, double taxaJurosAnual, double saldoMinimo, double valorPenalidade) {
