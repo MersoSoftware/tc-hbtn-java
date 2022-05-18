@@ -10,13 +10,16 @@ public class PersonagemGame {
     }
 
     public void setSaudeAtual(int saudeAtual) {
-        if(this.getSaudeAtual() > 0) {
-            status = "vivo";
-        }else if(this.getSaudeAtual() == 0){
-            status = "morto";
+        if (saudeAtual <= 0) {
+            this.saudeAtual = 0;
+            this.status = "morto";
+        } else if (saudeAtual >= 100) {
+            this.saudeAtual = 100;
+            this.status = "vivo";
+        }else{
+            this.saudeAtual = saudeAtual;
+            this.status = "vivo";
         }
-
-        this.saudeAtual = saudeAtual;
     }
 
     public String getNome() {
