@@ -1,13 +1,7 @@
 public class PersonagemGame {
-
-    public int saudeAtual;
-    public String nome;
-
+    private int saudeAtual;
+    private String nome;
     private String status;
-
-    public int getSaudeAtual() {
-        return saudeAtual;
-    }
 
     public PersonagemGame(int saudeAtual, String nome) {
         this.saudeAtual = saudeAtual;
