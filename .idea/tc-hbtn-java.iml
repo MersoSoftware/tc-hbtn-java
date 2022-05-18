@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x01" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x02" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x05/heranca" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -8,6 +8,8 @@
       <file url="file://$PROJECT_DIR$/0x02/divisao/Numero.java" />
       <file url="file://$PROJECT_DIR$/0x01/somar/Program.java" />
       <file url="file://$PROJECT_DIR$/0x03/livraria/Program.java" />
+      <file url="file://$PROJECT_DIR$/0x03/salario/Program.java" />
+      <file url="file://$PROJECT_DIR$/0x05/heranca/Programa.java" />
     </excludeFromCompile>
   </component>
 </project>
