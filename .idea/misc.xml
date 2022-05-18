@@ -3,6 +3,7 @@
   <component name="ExcludeFromValidation">
     <file url="file://$PROJECT_DIR$/0x03/livraria/Program.java" />
     <file url="file://$PROJECT_DIR$/0x05/heranca/Programa.java" />
+    <file url="file://$PROJECT_DIR$/0x05/forma/Profram.java" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
