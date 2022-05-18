@@ -7,5 +7,5 @@ public class Program {
 
         System.out.printf("Nome: %s - Saude: %d\n", personagem1.getNome(), personagem1.getSaudeAtual());
     }
-    }
 }
+
