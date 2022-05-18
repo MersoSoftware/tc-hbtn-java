@@ -10,10 +10,9 @@ public class PersonagemGame {
     }
 
     public void setSaudeAtual(int saudeAtual) {
-        if(saudeAtual > 0){
+        if(this.getSaudeAtual() > 0) {
             status = "vivo";
-        }
-        if(saudeAtual == 0){
+        }else if(this.getSaudeAtual() == 0){
             status = "morto";
         }
 
