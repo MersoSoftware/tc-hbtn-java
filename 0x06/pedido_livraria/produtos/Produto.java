@@ -10,12 +10,12 @@ public abstract class Produto {
 
     protected double precoBruto;
 
-    public Produto(String titulo, int ano, String pais) {
+    public Produto(String titulo, int ano, String pais, double precoBruto) {
         this.titulo = titulo;
         this.ano = ano;
         this.pais = pais;
+        this.precoBruto = precoBruto;
     }
-
 
     public void setPrecoBruto(double precoBruto) {
         this.precoBruto = precoBruto;

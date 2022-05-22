@@ -7,8 +7,8 @@ public class Livro extends Produto {
 
     private int edicao;
 
-    public Livro(String titulo, int ano, String pais, int paginas, String autor, int edicao) {
-        super(titulo, ano, pais);
+    public Livro(String titulo, int ano, String pais, double precoBruto, int paginas, String autor, int edicao) {
+        super(titulo, ano, pais, precoBruto);
         this.paginas = paginas;
         this.autor = autor;
         this.edicao = edicao;
