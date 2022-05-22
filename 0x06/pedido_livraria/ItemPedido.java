@@ -12,7 +12,6 @@ public class ItemPedido {
         this.produto = produto;
     }
 
-
     public int getQuantidade() {
         return quantidade;
     }
