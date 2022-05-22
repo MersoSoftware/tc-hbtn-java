@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x05/heranca" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x05/quadrado" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x05/retangulo_completo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x06/pedido_livraria" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
