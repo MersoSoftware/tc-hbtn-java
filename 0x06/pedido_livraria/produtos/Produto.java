@@ -17,8 +17,8 @@ public abstract class Produto {
         this.precoBruto = precoBruto;
     }
 
-    public void setPrecoBruto(double precoBruto) {
-        this.precoBruto = precoBruto;
+    public double getPrecoBruto() {
+        return precoBruto;
     }
 
     public abstract double obterPrecoLiquido();
