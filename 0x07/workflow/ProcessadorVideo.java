@@ -12,7 +12,7 @@ public class ProcessadorVideo {
     }
 
     public void registrarCanal(CanalNotificacao canal){
-
+        this.canais.add(canal);
     }
 
     public void processar(Video video){
