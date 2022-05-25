@@ -1,14 +1,12 @@
-package workflow;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class ProcessadorVideo {
 
-    List<CanalNotificacao> canais = new ArrayList<CanalNotificacao>();
+   private List<CanalNotificacao> canais = new ArrayList<CanalNotificacao>();
 
-     public void registrarCanal(CanalNotificacao canal){
-        this.canais.add(canal);
+     public void registrarCanal(CanalNotificacao canalNotificacao){
+        this.canais.add(canalNotificacao);
     }
 
     public void processar(Video video){
