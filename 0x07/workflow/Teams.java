@@ -1,6 +1,8 @@
 package workflow;
 
 public class Teams implements CanalNotificacao{
+    public Teams() {
+    }
 
     @Override
     public void notificar(Mensagem mensagem) {
