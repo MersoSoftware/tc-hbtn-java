@@ -1,18 +1,51 @@
 public class Program {
     public static void main(String[] args) {
-        Endereco endereco = new Endereco("Rua Marechal Deodoro",
-                "135",
-                "",
-                "Santo Amaro",
-                "Sao Paulo",
-                "SP",
-                "Brasil");
+        Personagem gandalf = new Personagem();
+        Personagem bilbo = new Personagem();
+        Personagem legolas = new Personagem();
+        Personagem tauriel = new Personagem();
 
-        Empregado empregado = new Empregado("Jane Doe", 1, endereco);
+        gandalf.comer(new Comida[] {
+                new Maca(),
+                new Maca(),
+                new Cogumelo(),
+                new OutraComida()
+        });
 
-        empregado.apresentar();
+        System.out.println(gandalf.toString());
 
-        System.out.println();
+        bilbo.comer(new Comida[] {
+                new BoloDeMel(),
+                new Maca(),
+                new Melao(),
+                new Cogumelo()
+        });
 
+        System.out.println(bilbo.toString());
+
+        legolas.comer(new Comida[] {
+                new BoloDeMel(),
+                new Maca(),
+                new Melao(),
+                new Cogumelo(),
+                new BoloDeMel(),
+                new Cram(),
+                new Cram()
+        });
+
+        System.out.println(legolas.toString());
+
+        legolas.comer(new Comida[] {
+                new BoloDeMel(),
+                new Maca(),
+                new Melao(),
+                new Cogumelo(),
+                new BoloDeMel(),
+                new Lembas(),
+                new Lembas(),
+                new Cram()
+        });
+
+        System.out.println(legolas.toString());
     }
 }
