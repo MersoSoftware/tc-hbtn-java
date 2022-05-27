@@ -6,7 +6,10 @@ public abstract class Comida {
     public Comida(int pontosDeFelicidade) {
         this.pontosDeFelicidade = pontosDeFelicidade;
     }
-    public int getPontosDeFelicidade() {
+
+    public double getPontosDeFelicidade() {
         return pontosDeFelicidade;
     }
+
+    public abstract int pontosDeFelicidade();
 }
