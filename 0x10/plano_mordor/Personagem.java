@@ -1,7 +1,7 @@
 
 public class Personagem {
     protected int pontosDeFelicidade =0;
-    public Humor obeterHumorAtual(){
+    public Humor obterHumorAtual(){
         if (this.pontosDeFelicidade < -5)
             return new Irritado();
         else if (this.pontosDeFelicidade >= -5 && this.pontosDeFelicidade <= 0)
