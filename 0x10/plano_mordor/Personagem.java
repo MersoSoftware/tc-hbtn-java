@@ -29,6 +29,3 @@ public class Personagem {
         return this.pontosDeFelicidade + " - " + humor;
     }
 }
-
-
-}
