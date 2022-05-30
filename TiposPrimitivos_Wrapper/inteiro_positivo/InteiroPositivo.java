@@ -11,7 +11,7 @@ public class InteiroPositivo {
 
     public void valida() throws Exception {
        if (!(valor % 1 == 0) ){
-           throw new Exception("Valor nao eh um valor inteiro positivo");
+           throw new IllegalArgumentException("Valor nao eh um valor inteiro positivo");
        }
 
     }
