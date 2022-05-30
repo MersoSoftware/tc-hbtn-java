@@ -5,8 +5,4 @@ public class Lembas extends Comida {
         super(3);
     }
 
-    @Override
-    public int pontosDeFelicidade() {
-        return 0;
-    }
 }

@@ -1,6 +1,7 @@
 
 public class Personagem {
     protected int pontosDeFelicidade =0;
+
     public Humor obterHumorAtual(){
         if (this.pontosDeFelicidade < -5)
             return new Irritado();
@@ -20,6 +21,6 @@ public class Personagem {
 
     @Override
     public String toString() {
-        return this.pontosDeFelicidade + " - " + obeterHumorAtual().getClass().getSimpleName();
+        return this.pontosDeFelicidade + " - " + obterHumorAtual().getClass().getSimpleName();
     }
 }

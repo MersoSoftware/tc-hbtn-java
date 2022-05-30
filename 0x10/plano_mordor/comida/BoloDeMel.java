@@ -5,8 +5,5 @@ public class BoloDeMel extends Comida {
         super(5);
     }
 
-    @Override
-    public int pontosDeFelicidade() {
-        return 0;
-    }
+
 }

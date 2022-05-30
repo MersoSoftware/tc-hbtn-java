@@ -5,8 +5,5 @@ public class Cram extends Comida {
         super(2);
     }
 
-    @Override
-    public int pontosDeFelicidade() {
-        return 0;
-    }
+
 }

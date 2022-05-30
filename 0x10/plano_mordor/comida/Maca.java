@@ -5,8 +5,5 @@ public class Maca extends Comida {
         super(1);
     }
 
-    @Override
-    public int pontosDeFelicidade() {
-        return 0;
-    }
+
 }

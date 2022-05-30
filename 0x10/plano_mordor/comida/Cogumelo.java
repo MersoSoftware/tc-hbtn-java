@@ -6,8 +6,4 @@ public class Cogumelo extends Comida {
         super(-10);
     }
 
-    @Override
-    public int pontosDeFelicidade() {
-        return 0;
-    }
 }
