@@ -1,4 +1,5 @@
-
+import comida.*;
+import humor.*;
 public class Personagem {
     protected int pontosDeFelicidade =0;
 
