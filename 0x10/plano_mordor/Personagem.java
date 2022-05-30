@@ -1,7 +1,7 @@
 
 public class Personagem {
     protected int pontosDeFelicidade;
-    public umor obterHumorAtual() {
+    public Humor obterHumorAtual() {
         Humor humor;
         int pontosF = this.pontosDeFelicidade;
         if (pontosF < -5) {
