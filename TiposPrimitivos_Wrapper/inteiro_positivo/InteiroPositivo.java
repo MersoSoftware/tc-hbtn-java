@@ -9,12 +9,9 @@ public class InteiroPositivo {
         this.valor = Integer.parseInt(String.valueOf(valor));
     }
 
-    public void valida() throws Exception {
-       if (valor <  1  ){
-           throw new IllegalArgumentException("Valor nao eh um valor inteiro positivo");
-       }
-        this.valor = valor;
-    }
+//    public void valida() throws Exception {
+//
+//    }
 
     public boolean ehPrimo(){
         if(valor <= 1){
@@ -29,6 +26,9 @@ public class InteiroPositivo {
     }
 
     public void setValor(int valor) {
+        if (valor <  1  ){
+            throw new IllegalArgumentException("Valor nao eh um valor inteiro positivo");
+        }
         this.valor = valor;
     }
 
