@@ -7,7 +7,7 @@ public class Program {
         Personagem legolas = new Personagem();
         Personagem tauriel = new Personagem();
 
-        gandalf.comer(new Comida[] {
+        gandalf.comer(new Comida[]{
                 new Maca(),
                 new Maca(),
                 new Cogumelo(),
@@ -16,7 +16,7 @@ public class Program {
 
         System.out.println(gandalf.toString());
 
-        bilbo.comer(new Comida[] {
+        bilbo.comer(new Comida[]{
                 new BoloDeMel(),
                 new Maca(),
                 new Melao(),
@@ -25,7 +25,7 @@ public class Program {
 
         System.out.println(bilbo.toString());
 
-        legolas.comer(new Comida[] {
+        legolas.comer(new Comida[]{
                 new BoloDeMel(),
                 new Maca(),
                 new Melao(),
@@ -37,7 +37,7 @@ public class Program {
 
         System.out.println(legolas.toString());
 
-        legolas.comer(new Comida[] {
+        legolas.comer(new Comida[]{
                 new BoloDeMel(),
                 new Maca(),
                 new Melao(),
@@ -49,4 +49,5 @@ public class Program {
         });
 
         System.out.println(legolas.toString());
+    }
 }
