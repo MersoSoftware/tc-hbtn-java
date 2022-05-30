@@ -1,7 +1,7 @@
 
 public class Personagem {
     protected int pontosDeFelicidade;
-    Humor obterHumorAtual() {
+    public umor obterHumorAtual() {
         Humor humor;
         int pontosF = this.pontosDeFelicidade;
         if (pontosF < -5) {
@@ -17,7 +17,7 @@ public class Personagem {
         return humor;
     }
 
-    void comer(Comida[] comidas) {
+    public void comer(Comida[] comidas) {
         for (Comida comida : comidas) {
             this.pontosDeFelicidade += comida.getPontosDeFelicidade();
         }
