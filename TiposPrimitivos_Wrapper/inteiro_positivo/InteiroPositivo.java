@@ -1,10 +1,11 @@
 public class InteiroPositivo {
-    private Integer valor;
+    private int valor;
 
     public InteiroPositivo(String valor) {
         this.valor = Integer.parseInt(valor);
     }
-    public InteiroPositivo(Integer valor){
+
+    public InteiroPositivo(int valor) {
         this.valor = Integer.parseInt(String.valueOf(valor));
     }
 
@@ -22,7 +23,7 @@ public class InteiroPositivo {
         return false;
     }
 
-    public Integer getValor() {
+    public int getValor() {
         return valor;
     }
 }
