@@ -18,22 +18,22 @@ public class Program {
             System.out.println(ex.getMessage());
         }
 
-//        ManipularArrayNumeros.removerNumero(numeros, 3);
-//        ManipularArrayNumeros.removerNumero(numeros, 9);
+        ManipularArrayNumeros.removerNumero(numeros, 3);
+        ManipularArrayNumeros.removerNumero(numeros, 9);
 
         System.out.println(numeros);
 
         try {
-//            ManipularArrayNumeros.removerNumero(numeros, 9);
+            ManipularArrayNumeros.removerNumero(numeros, 9);
         } catch(Exception ex) {
             System.out.println(ex.getMessage());
         }
 
-//        ManipularArrayNumeros.substituirNumero(numeros, 3, 5);
+        ManipularArrayNumeros.substituirNumero(numeros, 3, 5);
 
         System.out.println(numeros);
 
-//        ManipularArrayNumeros.substituirNumero(numeros, 5, 3);
+        ManipularArrayNumeros.substituirNumero(numeros, 5, 3);
 
         System.out.println(numeros);
     }
