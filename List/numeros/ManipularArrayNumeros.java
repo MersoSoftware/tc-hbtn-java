@@ -11,7 +11,7 @@ public class ManipularArrayNumeros {
 
     public static void adicionarNumero(List<Integer> numeros, Integer numero) throws Exception {
         if (numeros.contains(numero)){
-            throw  new Exception("Numero jah contido na lista");
+            throw new Exception("Numero jah contido na lista");
         }
         numeros.add(numero);
     }

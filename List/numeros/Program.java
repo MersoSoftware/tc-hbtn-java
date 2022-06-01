@@ -5,10 +5,14 @@ public class Program {
     public static void main(String[] args) {
         List<Integer> numeros = new ArrayList<Integer>();
 
-        ManipularArrayNumeros.adicionarNumero(numeros, 1);
-        ManipularArrayNumeros.adicionarNumero(numeros, 3);
-        ManipularArrayNumeros.adicionarNumero(numeros, 6);
-        ManipularArrayNumeros.adicionarNumero(numeros, 9);
+        try {
+            ManipularArrayNumeros.adicionarNumero(numeros, 1);
+            ManipularArrayNumeros.adicionarNumero(numeros, 3);
+            ManipularArrayNumeros.adicionarNumero(numeros, 6);
+            ManipularArrayNumeros.adicionarNumero(numeros, 9);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
         System.out.println(numeros);
 
@@ -18,8 +22,12 @@ public class Program {
             System.out.println(ex.getMessage());
         }
 
-        ManipularArrayNumeros.removerNumero(numeros, 3);
-        ManipularArrayNumeros.removerNumero(numeros, 9);
+        try {
+            ManipularArrayNumeros.removerNumero(numeros, 3);
+            ManipularArrayNumeros.removerNumero(numeros, 9);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
         System.out.println(numeros);
 
