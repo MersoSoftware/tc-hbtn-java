@@ -17,9 +17,9 @@ public class ManipularArrayNumeros {
     }
 
     public static  void removerNumero(List<Integer> numeros, Integer numero) throws Exception {
-      Integer numeroRemover = buscarPosicaoNumero(numeros, numero);
 
-        if(numeroRemover== -1){
+
+        if(buscarPosicaoNumero(numeros, numero) == -1){
             throw new Exception("Numero nao encontrado na lista");
         }
         numeros.remove(numero);
@@ -29,7 +29,7 @@ public class ManipularArrayNumeros {
     public static void substituirNumero(List<Integer> list, Integer numeroSubstituir, Integer numeroSubstituto) {
         int posicaoNumero = buscarPosicaoNumero(list,numeroSubstituir);
 
-        if (posicaoNumero == -1) {
+        if (buscarPosicaoNumero(list,numeroSubstituir) == -1) {
             list.add(numeroSubstituto);
         } else {
             list.set(posicaoNumero, numeroSubstituto);
