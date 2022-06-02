@@ -37,7 +37,7 @@ public class Tarefa {
     }
 
     public void  modificarDescricao(String texto) throws Exception {
-        if(texto == null || texto == " " || texto.length() < 3){
+        if(texto == null || texto.isBlank() || texto.isEmpty()){
             throw new Exception("Descricao de tarefa invalida");
         }
          this.setDescricao(texto);

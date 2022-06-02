@@ -1,12 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
-public class ListaToDo {
+public class ListaTodo {
 
-    private List<Tarefa> tarefas;
+    private ArrayList<Tarefa> tarefas;
 
-    public ListaToDo() {
+    public ListaTodo() {
         this.tarefas = new ArrayList<>();
     }
 
