@@ -7,6 +7,7 @@ public class Tarefa {
     private int identificador;
 
     public Tarefa(String descricao,  int identificador) {
+        modificarDescricao(descricao);
         this.descricao = descricao;
         this.identificador = identificador;
     }
@@ -36,7 +37,7 @@ public class Tarefa {
         this.identificador = identificador;
     }
 
-    public void  modificarDescricao(String texto) throws Exception {
+    public void  modificarDescricao(String texto) {
         if(texto == null || texto.isBlank() || texto.isEmpty()){
             throw new IllegalArgumentException("Descricao de tarefa invalida");
         }

@@ -9,7 +9,7 @@ public class ListaTodo {
         this.tarefas = new ArrayList<Tarefa>();
     }
 
-    public void adicionarTarefa(Tarefa tarefa) throws Exception {
+    public void adicionarTarefa(Tarefa tarefa) {
 
         for (Tarefa validaTarefa : tarefas) {
             if(validaTarefa.getIdentificador() == tarefa.getIdentificador()) {
