@@ -19,16 +19,14 @@ public class ListaTodo {
         tarefas.add(tarefa);
     }
 
-    public boolean marcarTarefaFeita(int identificador){
-        for (Tarefa marcaTarefa: tarefas ) {
-            if(marcaTarefa.getIdentificador() == identificador){
-                return false;
-            }else{
-                marcaTarefa.setEstahFeita(true);
+    public boolean marcarTarefaFeita(int identificador) {
+        for (Tarefa tarefa : this.tarefas) {
+            if (tarefa.getIdentificador() == identificador) {
+                tarefa.setEstahFeita(true);
                 return true;
             }
         }
-        return true;
+        return false;
     }
     public boolean desfazerTarefa(int identificador) {
         for (Tarefa tarefa : this.tarefas) {
