@@ -10,6 +10,7 @@ public class Pedido {
         this.itens = itens;
     }
 
+
     public double calcularTotal(){
         double total=0;
         for (ItemPedido itensPedido: itens) {
