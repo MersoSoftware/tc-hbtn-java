@@ -5,21 +5,21 @@ import java.util.List;
 
 public class Pedido {
 
-    private List<PedidoCookies> cookies;
+    private List<PedidoCookie> cookies;
 
     public Pedido() {
         this.cookies = new ArrayList<>();
     }
 
-    public List<PedidoCookies> getCookies() {
+    public List<PedidoCookie> getCookies() {
         return cookies;
     }
 
-    public void setCookies(List<PedidoCookies> cookies) {
+    public void setCookies(List<PedidoCookie> cookies) {
         this.cookies = cookies;
     }
 
-    public void adicionarPedidoCookie(PedidoCookies pedidoCookies){
+    public void adicionarPedidoCookie(PedidoCookie pedidoCookies){
         this.cookies.add(pedidoCookies);
     }
 
@@ -30,9 +30,9 @@ public class Pedido {
 
     public int removerSabor(String sabor){
         int caixasRemovidas = 0;
-        Iterator<PedidoCookies> pedidos = this.cookies.iterator();
+        Iterator<PedidoCookie> pedidos = this.cookies.iterator();
         while(pedidos.hasNext()){
-            PedidoCookies pedidoCookie = pedidos.next();
+            PedidoCookie pedidoCookie = pedidos.next();
             if (pedidoCookie.getSabor().equals(sabor)){
                 caixasRemovidas += pedidoCookie.getQuantidadedeCaixas();
                 pedidos.remove();

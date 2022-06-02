@@ -1,10 +1,10 @@
-public class PedidoCookies {
+public class PedidoCookie {
 
     private String sabor;
 
     private int quantidadedeCaixas;
 
-    public PedidoCookies(String sabor, int quantidadedeCaixas) {
+    public PedidoCookie(String sabor, int quantidadedeCaixas) {
         this.sabor = sabor;
         this.quantidadedeCaixas = quantidadedeCaixas;
     }
