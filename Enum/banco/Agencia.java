@@ -1,5 +1,3 @@
-package banco;
-
 public class Agencia {
     private String nome;
     private ArrayList<Cliente> clientes;
