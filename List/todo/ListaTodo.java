@@ -6,14 +6,14 @@ public class ListaTodo {
     private ArrayList<Tarefa> tarefas;
 
     public ListaTodo() {
-        this.tarefas = new ArrayList<>();
+        this.tarefas = new ArrayList<Tarefa>();
     }
 
     public void adicionarTarefa(Tarefa tarefa) throws Exception {
 
         for (Tarefa validaTarefa : tarefas) {
             if(validaTarefa.equals(tarefa.getIdentificador())) {
-                throw new Exception("Tarefa com identificador <identificador> ja existente na lista");
+                throw new IllegalArgumentException("Tarefa com identificador <identificador> ja existente na lista");
             }
         }
         tarefas.add(tarefa);
