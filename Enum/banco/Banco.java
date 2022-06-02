@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+
+
 public class Banco {
     private String nome;
     private ArrayList<Agencia> agencias;

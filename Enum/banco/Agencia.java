@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Agencia {
     private String nome;
     private ArrayList<Cliente> clientes;
