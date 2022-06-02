@@ -21,10 +21,11 @@ public class ListaTodo {
 
     public boolean marcarTarefaFeita(int identificador){
         for (Tarefa marcaTarefa: tarefas ) {
-            if(marcaTarefa.equals(identificador)){
+            if(marcaTarefa.getIdentificador() == identificador){
                 return false;
             }else{
                 marcaTarefa.setEstahFeita(true);
+                return true;
             }
         }
         return true;
