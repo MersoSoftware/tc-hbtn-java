@@ -1,27 +1,35 @@
 public class Contato {
     private String nome;
     private String numero;
-    private TipoNumero tipoNumero;
 
-    public Contato(String nome, String numero, TipoNumero tipoNumero) {
+    private TipoNumero tipoNumero;
+    public Contato(String nome, String numero, TipoNumero tipo) {
         this.nome = nome;
         this.numero = numero;
-        this.tipoNumero = tipoNumero;
+        this.tipo = tipo;
     }
 
     public String getNome() {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public String getNumero() {
         return numero;
     }
 
-    public TipoNumero getTipoNumero() {
-        return tipoNumero;
+    public void setNumero(String numero) {
+        this.numero = numero;
     }
 
-    public void setTipoNumero(TipoNumero tipoNumero) {
-        this.tipoNumero = tipoNumero;
+    public TipoNumero getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(TipoNumero tipo) {
+        this.tipo = tipo;
     }
 }
