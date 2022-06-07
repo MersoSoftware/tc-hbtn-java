@@ -16,13 +16,11 @@ public class Empregado {
         }else{
             return 0;
         }
-
     }
 
     public double calcularSalarioTotal(Departamento departamento){
         double salarioTotal = this.calcularBonus(departamento)+this.salarioFixo;
         return salarioTotal;
     }
-
 
 }
