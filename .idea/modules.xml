@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/0x00-java-hello_world/0x00-java-hello_world.iml" filepath="$PROJECT_DIR$/0x00-java-hello_world/0x00-java-hello_world.iml" />
       <module fileurl="file://$PROJECT_DIR$/0x05/0x05.iml" filepath="$PROJECT_DIR$/0x05/0x05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enum/Enum.iml" filepath="$PROJECT_DIR$/Enum/Enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/TiposPrimitivos_Wrapper/TiposPrimitivos_Wrapper.iml" filepath="$PROJECT_DIR$/TiposPrimitivos_Wrapper/TiposPrimitivos_Wrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/0x09/agregacao/afrecao.iml" filepath="$PROJECT_DIR$/0x09/agregacao/afrecao.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enum/banco/banco.iml" filepath="$PROJECT_DIR$/Enum/banco/banco.iml" />
