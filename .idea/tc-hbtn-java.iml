@@ -18,6 +18,8 @@
       <sourceFolder url="file://$MODULE_DIR$/List/cookies" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/List/numeros" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/List/todo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Generics_exercises/armazem" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Generics_exercises/armazem_especifico" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
