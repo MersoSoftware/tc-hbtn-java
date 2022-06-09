@@ -1,8 +1,9 @@
 public class Midia {
-
-    private String nome;
+    public String nome;
 
     public Midia(String nome) {
+        this.nome = nome;
+
     }
 
     public String getNome() {
