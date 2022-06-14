@@ -8,8 +8,8 @@ public class Produto {
     private double preco;
     private double percentualMarkUp = 0.1;
 
-    Supplier<Double> precoComMarkUp = () -> preco * (1 + percentualMarkUp);
-    Consumer<Double> atualizarMarkUp = preco -> percentualMarkUp = (preco / 100);
+    Supplier<Double> precoComMarkup = () -> preco * (1 + percentualMarkUp);
+    Consumer<Double> atualizarMarkup = preco -> percentualMarkUp = (preco / 100);
 
     public Produto(double preco, String nome) {
         this.nome = nome;
