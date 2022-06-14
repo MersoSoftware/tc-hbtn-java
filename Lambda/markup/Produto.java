@@ -1,4 +1,3 @@
-package Lambda.markup;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -6,14 +5,14 @@ import java.util.function.Supplier;
 public class Produto {
     private String nome;
     private double preco;
-    private double percentualMarkup = 0.1;
+    private double percentualMarkUp = 0.1;
 
-    public Consumer<Double> atualizarMarkup = preco -> percentualMarkup = (preco / 100);
-    public Supplier<Double> precoComMarkup = () -> preco * (1 + percentualMarkup);
+    Supplier<Double> precoComMarkUp = () -> preco * (1 + percentualMarkUp);
+    Consumer<Double> atualizarMarkUp = preco -> percentualMarkUp = (preco / 100);
 
     public Produto(double preco, String nome) {
-        this.preco = preco;
         this.nome = nome;
+        this.preco = preco;
     }
 
     public String getNome() {
@@ -23,5 +22,4 @@ public class Produto {
     public double getPreco() {
         return preco;
     }
-
 }
