@@ -6,10 +6,10 @@ import java.util.function.Supplier;
 public class Produto {
     private String nome;
     private double preco;
-    private double percentualMarkUp = 0.1;
+    private double percentualMarkup = 0.1;
 
-    Supplier<Double> precoComMarkup = () -> preco * (1 + percentualMarkUp);
-    Consumer<Double> atualizarMarkup = preco -> percentualMarkUp = (preco / 100);
+    Supplier<Double> precoComMarkup = () -> preco * (1 + percentualMarkup);
+    Consumer<Double> atualizarMarkup = preco -> percentualMarkup = (preco / 100);
 
     public Produto(double preco, String nome) {
         this.nome = nome;
