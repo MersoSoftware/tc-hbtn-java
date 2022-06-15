@@ -1,5 +1,3 @@
-package Lambda.markup;
-
 public class Program {
     public static void main(String[] args) {
         Produto produto1 = new Produto("Mouse Gamer", 129.99);
