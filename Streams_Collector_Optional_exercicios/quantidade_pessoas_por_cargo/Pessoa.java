@@ -1,6 +1,6 @@
 
 
-public class Pessoa implements Comparable<Pessoa>{
+public class Pessoa {
     private int codigo;
     private String nome;
     private  String cargo;
@@ -40,10 +40,4 @@ public class Pessoa implements Comparable<Pessoa>{
         return  String.format("[" + codigo + "]" + " %s" + " %s" + " %d" + " R$ %.6f",
                 nome,cargo,idade,salario);
     }
-
-    @Override
-    public int compareTo(Pessoa o) {
-        return this.getNome().compareTo(o.getNome());
-    }
-
 }
