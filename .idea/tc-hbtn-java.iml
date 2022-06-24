@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/List/todo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Generics_exercises/armazem" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Generics_exercises/armazem_especifico" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apache-maven/financeiro-api" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
